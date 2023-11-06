@@ -1,5 +1,5 @@
 <div align="center">
-  <p>Forked from: <a href="https://www.npmjs.com/package/react-native-compare-slider">https://github.com/taranisag/react-native-compare-slider</a>.<br>I have just updated the dependencies so it can run with expo.</p>
+  <p>Forked from: <a href="https://www.npmjs.com/package/react-native-compare-slider">https://github.com/taranisag/react-native-compare-slider</a>.<br>I have just updated the dependencies so it can run with the latest version of expo. The code in examples is probably not working anymore.</p>
   <h1>React Native Compare Slider</h1>
   <p>Compare any two components side-by-side</p>
 
@@ -27,22 +27,10 @@
 - Supports landscape and portrait orientations
 - Customization
 
-### Try it out
-
-You can run examples by performing these steps:
-
-```
-$ git clone git@github.com:taranisag/react-native-compare-slider.git
-$ npm install
-$ npm start android
-```
-
-or check a [demo page](https://snack.expo.io/@taranis/react-native-compare-slider)
-
 ### Installation
 
 ```sh
-$ npm install react-native-compare-slider
+$ npm install git://github.com/Dadacticiel/react-native-compare-slider
 ```
 
 ## Props
