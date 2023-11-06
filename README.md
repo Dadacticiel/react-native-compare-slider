@@ -1,5 +1,5 @@
 <div align="center">
-  <p>Forked from: [<a href="https://www.npmjs.com/package/react-native-compare-slider">https://github.com/taranisag/react-native-compare-slider</a>](https://github.com/taranisag/react-native-compare-slider). I just updated the dependencies so it can run with expo.</p>
+  <p>Forked from: <a href="https://www.npmjs.com/package/react-native-compare-slider">https://github.com/taranisag/react-native-compare-slider</a>.<br>I have just updated the dependencies so it can run with expo.</p>
   <h1>React Native Compare Slider</h1>
   <p>Compare any two components side-by-side</p>
 
