@@ -26,47 +26,41 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/taranisag/react-native-compare-slider.git"
+    "url": "git+https://github.com/Dadacticiel/react-native-compare-slider.git"
   },
   "jest": {
     "preset": "jest-expo"
   },
   "dependencies": {
-    "react-native-reanimated": "~2.1.0",
-    "react-native-gesture-handler": "^1.10.3"
-  },
-  "peerDependencies": {
-    "react": "^16.13.1",
-    "react-native": "^0.63"
+    "react-native-reanimated": "~3.5.4"
   },
   "devDependencies": {
-    "@babel/core": "^7.9.0",
-    "@types/jest": "^26.0.23",
-    "@types/react": "~16.9.35",
-    "@types/react-native": "~0.63.2",
-    "@typescript-eslint/eslint-plugin": "^4.26.1",
-    "@typescript-eslint/parser": "^4.26.1",
+    "@babel/core": "^7.23.2",
+    "@react-navigation/native": "~6.1.9",
+    "@react-navigation/stack": "~6.3.20",
+    "@types/jest": "^29.5.7",
+    "@types/react": "~18.2.36",
+    "@types/react-native": "~0.72.5",
+    "@typescript-eslint/eslint-plugin": "^6.10.0",
+    "@typescript-eslint/parser": "^6.10.0",
     "coveralls": "^3.1.1",
-    "eslint": "^7.28.0",
-    "eslint-config-airbnb": "^18.2.1",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-import": "^2.23.4",
-    "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-prettier": "^3.4.0",
-    "eslint-plugin-react": "^7.24.0",
-    "eslint-plugin-react-hooks": "^1.7.0",
-    "husky": "^6.0.0",
-    "jest-expo": "~41.0.0",
-    "lint-staged": "^11.0.0",
-    "prettier": "^2.3.1",
-    "typescript": "~4.0.0",
-    "react-native-screens": "~3.0.0",
-    "react-native-maps": "0.29.0",
-    "@react-navigation/native": "~5.8.10",
-    "@react-navigation/stack": "~5.12.8",
-    "expo": "~41.0.1",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-41.0.0.tar.gz",
-    "react": "^16.13.1"
+    "eslint": "^8.53.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "expo": "~49.0.16",
+    "husky": "^8.0.3",
+    "jest-expo": "~49.0.0",
+    "lint-staged": "^15.0.2",
+    "prettier": "^3.0.3",
+    "react": "^18.2.0",
+    "react-native": "^0.72.6",
+    "react-native-screens": "~3.27.0",
+    "typescript": "~5.2.2"
   },
   "husky": {
     "hooks": {
