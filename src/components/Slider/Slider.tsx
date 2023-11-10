@@ -17,11 +17,13 @@ const initialAnimatedValue = new Animated.Value(0);
 const DefaultSlider: React.FC<IDefaultSliderProps> = ({
   sliderSize = DEFAULT_SLIDER_SIZE,
   sliderStyles,
+  sliderArrowRightStyle,
+  sliderArrowLeftStyle,
 }) => {
   return (
     <View style={[styles.slider, sliderStyles, sliderSize]}>
-      <View style={[styles.sliderArrow, styles.sliderArrowRight]} />
-      <View style={[styles.sliderArrow, styles.sliderArrowLeft]} />
+      <View style={[styles.sliderArrow, styles.sliderArrowRight, sliderArrowRightStyle]} />
+      <View style={[styles.sliderArrow, styles.sliderArrowLeft, sliderArrowLeftStyle]} />
     </View>
   );
 };
@@ -32,10 +34,12 @@ export const Slider: React.FC<ISliderProps> = (props) => {
     translateX = initialAnimatedValue,
     sliderSize = DEFAULT_SLIDER_SIZE,
     sliderStyles,
+    sliderArrowRightStyle,
+    sliderArrowLeftStyle,
     showSeparationLine = true,
     separationLineStyles,
     SliderComponent = (
-      <DefaultSlider sliderSize={sliderSize} sliderStyles={sliderStyles} />
+        <DefaultSlider sliderSize={sliderSize} sliderStyles={sliderStyles} sliderArrowRightStyle={sliderArrowRightStyle} sliderArrowLeftStyle={sliderArrowLeftStyle} />
     ),
   } = props;
   const lastOffsetX = useRef(0);

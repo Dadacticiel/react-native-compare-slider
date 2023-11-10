@@ -14,6 +14,8 @@ export const CompareSlider: React.FC<ICompareSlider> = (props) => {
     sliderSize,
     SliderComponent,
     sliderStyles,
+    sliderArrowRightStyle,
+    sliderArrowLeftStyle,
     showSeparationLine,
   } = props;
   const { width: containerWidth, height: containerHeight } = containerSize;
@@ -57,6 +59,8 @@ export const CompareSlider: React.FC<ICompareSlider> = (props) => {
         sliderSize={sliderSize}
         containerSize={containerSize}
         sliderStyles={sliderStyles}
+        sliderArrowRightStyle={sliderArrowRightStyle}
+        sliderArrowLeftStyle={sliderArrowLeftStyle}
         SliderComponent={SliderComponent}
         showSeparationLine={showSeparationLine}
       />

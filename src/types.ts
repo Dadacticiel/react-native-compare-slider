@@ -12,6 +12,8 @@ export interface ISize {
 export interface IDefaultSliderProps {
   sliderSize?: ISize;
   sliderStyles?: ViewStyle;
+  sliderArrowLeftStyle?: ViewStyle;
+  sliderArrowRightStyle?: ViewStyle;
 }
 
 export interface ISliderProps extends IDefaultSliderProps {
@@ -31,6 +33,8 @@ export interface ICompareSlider {
   sliderSize?: ISize;
   SliderComponent?: React.ReactNode;
   sliderStyles?: ViewStyle;
+  sliderArrowRightStyle?: ViewStyle;
+  sliderArrowLeftStyle?: ViewStyle;
 
   // Separation line
   showSeparationLine?: boolean;
